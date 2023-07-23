@@ -25,5 +25,12 @@ console.log(c);
 
 // Shadowing
 // if var is also declared outside the block then the var a of block is shadow the outside var
-// var of inside block is also modified the value of a
- 
+// var of inside block is also modified the value of a(var)
+
+// let and const have a blocked scope and outsode the block have a another scope
+
+// three type of scope 
+// 1.global
+// 2.block 
+// 3. memory of let and const
+
