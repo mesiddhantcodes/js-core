@@ -16,6 +16,7 @@ var isLoggedInFromGoogle=false;
 console.log(fisrtName);
 console.log(emailName);
 console.log(uId);
+// all about variable
 
 console.log(`
     with unique Id: ${uId}
