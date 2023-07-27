@@ -6,6 +6,8 @@ console.log(answer);
 
 // D = (L - S) / L * 100
 // a + (b * c) / d * e
+// basic of  operator
+
 
 var sellingPrice = 199;
 var listPrice =799;
