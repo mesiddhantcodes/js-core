@@ -33,7 +33,7 @@ console.log(c);
 // 1.global
 // 2.block 
 // 3. memory of let and const
-
+//    -----------------------------------------
 // Shadowing is also valid in function 
 var c=100;
 function s()
