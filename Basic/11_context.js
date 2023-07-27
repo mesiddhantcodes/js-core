@@ -17,7 +17,7 @@ bigtip(4);
 // if we use var function then we have to call the function
 // after the declaration of the function because
 // the variable decalaration is scanned but made undefined in execution context
-
+// ----------------
 console.log(name);
 var name ="siddhant ";
 function naming()
