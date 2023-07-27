@@ -11,7 +11,8 @@ function s()
 }
 
 
-// ff
+//--------------------------------------------------------
+
 
 // when wew store s in z then s is gone but funtiion t have all the information
 // like lexical scope and where it came from
