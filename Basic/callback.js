@@ -1,14 +1,35 @@
-//  var isEven=function(ele)
-//  holding the functiton in the variable
-var isEven=(ele)=>
- {
-    // if(ele%2===0)
-    // {
-    //     return true;
-    // }
-    // return false;
-    return ele%2===0;
-    // when we use arrow function then we have to use  return 
- };
-var res=[2,4,6,8].every(isEven);
-console.log(res);
+// What is callback function in js 
+// A callback is a function passed as an argument to another function
+// ------------------------------------------------------------------------------------------------------
+
+setTimeout(function()
+{
+   // this setTimeout asychronous operation was not possible without call back
+   // it doesnot wait for timeout to expire 
+   console.log("Timer: ")
+},5000);
+
+
+function x(y)
+{
+   console.log("X");
+   y();
+}
+x(function y()
+{
+   console.log("y");
+   // the y function is a callback function
+   // call the function in some where in code 
+})
+
+
+// Javascript  is a synchronus and single thread language
+
+// Blocking the main thread
+// deep about event listeners
+
+// clousre demo with event listeners
+
+// scope demo with event listeners
+
+// Garbage collection and remove event listeners
