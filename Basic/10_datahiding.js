@@ -20,7 +20,7 @@ count2();
 // above code is not scalable 
 // we use constructor function to make separate incre and decre function
 
-
+// ====
 // ----------------------------------------------------------
 function Counter()
 {
