@@ -9,6 +9,10 @@ function s()
     //  whole closure funciton and with lexical scope bundle is returned
 
 }
+
+
+// ff
+
 // when wew store s in z then s is gone but funtiion t have all the information
 // like lexical scope and where it came from
 var z=s();
