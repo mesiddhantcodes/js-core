@@ -5,3 +5,4 @@ const b=100;
 // ---------
 
 // to avoid the temporal dead zone we have to declare all varible at the top 
+//  dd
