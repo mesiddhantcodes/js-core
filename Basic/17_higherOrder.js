@@ -36,6 +36,9 @@ const calCir=function (radii)
 };
 console.log(calCir(radii));
 // ==============================================================================================================
+
+
+
 const area= function(radus)
 {
     return Math.PI*radus*radus;
