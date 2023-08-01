@@ -10,3 +10,14 @@ function isdd(c)
 const outpudt=arr.filter(isdd); 
 const output=arr.filter((x)=>x%2); 
 console.log(output);
+
+// chaning of map and reduce
+const users=[
+    {firstName:"Siddhant",lastName:"kr",age:23},
+    {firstName:"tanishqa",lastName:"sharma",age:43},
+    {firstName:"mishal",lastName:"shahari",age:44},
+    {firstName:"Siddhant",lastName:"kr",age:23},
+];
+
+const ouuut=users.filter((x)=>x.age<30).map((x)=>x.firstName);
+console.log(ouuut)
