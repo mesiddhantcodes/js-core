@@ -21,7 +21,7 @@ api.createOrder(cart, function () {
 
 // Inversion of control
 // it is an another problem while using callback 
-// inversion of control is like when u loos the control ofur code when we using callback 
+// inversion of control is like when u loose the control of ur code when we using callback 
 
 
 
