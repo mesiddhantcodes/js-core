@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMLhttprequest</title>
+</head>
+<body>
+
+    
+</body>
+<script>
+    const xhr=new XMLHttpRequest();
+    // this xhr is used to interact with server
+    console.log(xhr.readyState);
+    // readystate show the current state of the request
+    // 0 means unsent
+    // 1 means opened
+    // 2 means head is received
+    // 3 means loading
+    // 4 means done
+    
+    xhr.onreadystatechange = function()
+    {   
+        if(xhr.readyState==4)
+        {
+            if(xhr.status==200)  //200 means that the request was been succesful
+            {
+                   console.log(xhr.responseText);
+            }
+            if(xhr.status==404)
+            {
+                console.log("FIlr is not found")
+            }
+        }
+    };
+    xhr.open('get','dom.txt',true);
+    xhr.send();
+
+
+
+
+</script>
+</html>
