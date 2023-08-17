@@ -9,6 +9,6 @@ rl.question("Please enter your name:-",(name)=>{
     rl.close();
 });
 rl.on('close',()=>{
-    console.log("Closing the interface!!...");
+    console.log("Closing the interface!!!...");
     process.exit(0);
 });
